@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Day1 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("src/Input.txt");
+        File file = new File("src/Input1.txt");
         Scanner myReader = new Scanner(file);
         
         try {
@@ -39,7 +39,7 @@ public class Day1 {
     static void getTop3Calories() throws Exception {
         int total = 0;
         int largest[] = {0,0,0};
-        File file = new File("src/Input.txt");
+        File file = new File("src/Input1.txt");
         Scanner myReader = new Scanner(file);
         while (myReader.hasNextLine()) {
             String line = myReader.nextLine();
